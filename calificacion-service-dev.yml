@@ -1,0 +1,9 @@
+server:
+  port: ${CUSTOM.SERVER.PORT:8083}
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongoadmin:123456789@localhost:27017
+      database: microservicios
+  application:
+    name: CALIFICACION-SERVICE

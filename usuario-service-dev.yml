@@ -1,0 +1,14 @@
+server:
+  port: ${CUSTOM.SERVER.PORT:8081}
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/microservicios
+    username: mitocode
+    password: mitocode
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: USUARIO-SERVICE
