@@ -1,11 +1,4 @@
 spring:
-  application:
-    name: USUARIO-SERVICE
-  cloud:
-    config:
-      uri: ${CONFIG.SERVER.HOSTNAME:http://localhost:9001}
-      profile: ${ENVIRONMENT.DEPLOY:dev} # usuario-service-dev.yml
-      enabled: true
   datasource:
     url: jdbc:postgresql://localhost:5432/microservicios
     username: mitocode
